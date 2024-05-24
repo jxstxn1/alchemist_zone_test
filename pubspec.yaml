@@ -1,0 +1,21 @@
+name: alchemist_zone_test
+description: "A new Flutter project."
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.4 <4.0.0'
+
+dependencies:
+  clock: ^1.1.1
+  flutter:
+    sdk: flutter  
+
+dev_dependencies:
+  alchemist: ^0.7.0
+  flutter_test:
+    sdk: flutter
+  lint: ^2.1.1
+
+flutter:
+  uses-material-design: true
